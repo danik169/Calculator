@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.text {
+    color:#43249f;
+    position: absolute;
+    top: 140px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.corpus {
+    border:1px solid black;
+    width:205px;
+    padding: 10px;
+}
+
+.ecran {
+    border:1px solid black;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .75);
+    color: white;
+    text-align: right;
+}
+
+.button {
+    width: 40px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid #7D8188;
+    box-shadow: 0 0 0 1px #7D8188, 0 .170em 0 0 #7D8188;
+    transition: all 0.2 ease;
+}
+
+.button:active{
+    box-shadow: none;
+    top: 8px;
+}
+
+.button4 {
+    width: 173px;
+    padding: 5px;
+    background-color: #c5d2d3;
+    border-radius: 5px;
+    color: black;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid #7D8188;
+    box-shadow: 0 0 0 1px #7D8188, 0 .170em 0 0 #7D8188;
+    transition: all 0.2 ease;
+}
+
+.button4:active{
+    box-shadow: none;
+    top: 8px;
+}
+
+.button1 {
+    height: 28px;
+    width: 28px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #00ab4c;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid #7D8188;
+    box-shadow: 0 0 0 1px #7D8188, 0 .170em 0 0 #7D8188;
+    transition: all 0.2 ease;
+}
+
+.button1:active{
+    box-shadow: none;
+    top: 8px;
+}
+
+.button2 {
+    height: 28px;
+    width: 28px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ff3333; 
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid #7D8188;
+    box-shadow: 0 0 0 1px #7D8188, 0 .170em 0 0 #7D8188;
+    transition: all 0.2 ease;
+}
+
+.button2:active{
+    box-shadow: none;
+    top: 8px;
+}
+
+.button3 {
+    height: 28px;
+    width: 28px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ffc600;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid #7D8188;
+    box-shadow: 0 0 0 1px #7D8188, 0 .170em 0 0 #7D8188;
+    transition: all 0.2 ease;
+}
+
+.button3:active{
+    box-shadow: none;
+    top: 8px;
+}
+
+.button5 {
+    height: 28px;
+    width: 28px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #4666d0;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid #7D8188;
+    box-shadow: 0 0 0 1px #7D8188, 0 .170em 0 0 #7D8188;
+    transition: all 0.2 ease;
+}
+
+.button5:active{
+    box-shadow: none;
+    top: 8px;
+}
+
+.button6 {
+    width: 40px;
+    padding: 8px;
+    background-color: #c5d2d3;
+    color: black;
+    border-radius: 5px; 
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    border: 1px solid #7D8188;
+    box-shadow: 0 0 0 1px #7D8188, 0 .170em 0 0 #7D8188;
+    transition: all 0.2 ease;
+}
+
+.button6:active{
+    box-shadow: none;
+    top: 8px;
+}
