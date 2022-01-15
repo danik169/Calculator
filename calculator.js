@@ -1,5 +1,3 @@
-let ecranValue = "";
-const elements = [];
 let currentNumber = "";
 let result = null;
 let operation = null;
@@ -12,12 +10,23 @@ function clickNumberHandler(num) {
   display();
 }
 
-function operationButtons(oper) {
+function plusHandler(oper) {
   if (result === null) {
     result = Number(currentNumber);
   } else {
-    result = result + Number(currentNumber);
-  }
+    equalHandler();
+  } 
+  currentNumber = "";
+  operation = oper;
+  display();
+}
+
+function minusHandler(oper) {
+  if (result === null) {
+    result = Number(currentNumber);
+  } else {
+    equalHandler();
+  } 
   currentNumber = "";
   operation = oper;
   display();
@@ -35,8 +44,12 @@ function display() {
 function equalHandler() {
   if (operation === "+") {
     result = result + Number(currentNumber);
-    
   }
+  if (operation === "-") {
+    result = result - Number(currentNumber);
+  }
+  currentNumber = "";
+  operation = null;
   const current = document.querySelector(".current-operand");
   current.innerText = result;
   const previous = document.querySelector(".previous-operand");
