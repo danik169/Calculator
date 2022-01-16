@@ -81,8 +81,8 @@ body {
 }
 
 .button1 {
-    height: 28px;
-    width: 28px;
+    height: 30px;
+    width: 30px;
     padding: 5px;
     border-radius: 50%;
     background-color: #00ab4c;
@@ -99,8 +99,8 @@ body {
 }
 
 .button2 {
-    height: 28px;
-    width: 28px;
+    height: 30px;
+    width: 30px;
     padding: 5px;
     border-radius: 50%;
     background-color: #ff3333; 
@@ -117,8 +117,8 @@ body {
 }
 
 .button3 {
-    height: 28px;
-    width: 28px;
+    height: 30px;
+    width: 30px;
     padding: 5px;
     border-radius: 50%;
     background-color: #ffc600;
@@ -135,8 +135,8 @@ body {
 }
 
 .button5 {
-    height: 28px;
-    width: 28px;
+    height: 30px;
+    width: 30px;
     padding: 5px;
     border-radius: 50%;
     background-color: #4666d0;
@@ -169,4 +169,16 @@ body {
 .button6:active{
     box-shadow: none;
     top: 8px;
+}
+
+.all-buttons{
+    display:flex;
+
+}
+
+.right-buttons {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
 }

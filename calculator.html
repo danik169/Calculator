@@ -1,51 +1,60 @@
 <html>
-    <head>
-        <title>calculator</title>
-        <link rel="stylesheet" href="calculator.css"/>
-        <script type="text/javascript" src="calculator.js"></script>
-    </head>
-    <body>
-        <div class="corpus">
-            <div class="ecran">
-                <div class="previous-operand"></div>
-                <div class="current-operand"></div>
+
+<head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+    <script type="text/javascript" src="calculator.js"></script>
+</head>
+
+<body>
+    <div class="corpus">
+        <div class="ecran">
+            <div class="previous-operand"></div>
+            <div class="current-operand"></div>
+        </div>
+        <div class="all-buttons">
+            <div class="main-buttons">
+                <div>
+                    <button onclick="clickNumberHandler(1)" class="button">1</button>
+                    <button onclick="clickNumberHandler(2)" class="button">2</button>
+                    <button onclick="clickNumberHandler(3)" class="button">3</button>
+                    <button onclick="plusHandler('+')" class="button6">+</button>
+                </div>
+                <div>
+                    <button onclick="clickNumberHandler(4)" class="button">4</button>
+                    <button onclick="clickNumberHandler(5)" class="button">5</button>
+                    <button onclick="clickNumberHandler(6)" class="button">6</button>
+                    <button onclick="minusHandler('-')" class="button6">-</button>
+                </div>
+                <div>
+                    <button onclick="clickNumberHandler(7)" class="button">7</button>
+                    <button onclick="clickNumberHandler(8)" class="button">8</button>
+                    <button onclick="clickNumberHandler(9)" class="button">9</button>
+                    <button onclick="multiHandler('*')" class="button6">x</button>
+                </div>
+                <div>
+                    <button onclick="allClearHandler('C')" class="button">C</button>
+                    <button onclick="clickNumberHandler(0)" class="button">0</button>
+                    <button onclick="clickNumberHandler('.')" class="button">.</button>
+                    <button onclick="divHandler('/')" class="button6">:</button>
+                </div>
+                <div>
+                    <button onclick="equalHandler()" class="button4">=</button>
+                </div>
             </div>
-            <div>
-            <button onclick="clickNumberHandler(1)" class="button">1</button>
-            <button onclick="clickNumberHandler(2)" class="button">2</button>
-            <button onclick="clickNumberHandler(3)" class="button">3</button>
-            <button onclick="plusHandler('+')" class="button6">+</button>
-            <button class="button1">@</button>
+            <div class="right-buttons">
+                <button class="button1">@</button>
+                <button class="button2">@</button>
+                <button class="button3">#</button>
+                <button class="button5">#</button>
+            </div>
         </div>
-        <div>
-            <button onclick="clickNumberHandler(4)" class="button">4</button>
-            <button onclick="clickNumberHandler(5)" class="button">5</button>
-            <button onclick="clickNumberHandler(6)" class="button">6</button>
-            <button onclick="minusHandler('-')" class="button6">-</button>
-            <button class="button2">@</button>
-        </div>
-        <div>
-            <button onclick="clickNumberHandler(7)" class="button">7</button>
-            <button onclick="clickNumberHandler(8)" class="button">8</button>
-            <button onclick="clickNumberHandler(9)" class="button">9</button>
-            <button onclick="multiHandler('*')" class="button6">x</button>
-            <button class="button3">#</button>
-        </div> 
-        <div>
-            <button onclick="allClearHandler('C')" class="button">C</button>
-            <button onclick="clickNumberHandler(0)" class="button">0</button>
-            <button onclick="clickNumberHandler('.')" class="button">.</button>
-            <button onclick="divHandler('/')" class="button6">:</button>
-            <button class="button5">#</button>
-        </div>
-        <div>
-            <button onclick="equalHandler()" class="button4">=</button>
-        </div>
-        </div>
+    </div>
 
-        <span class="text">My calculator</span>
+    <span class="text">My calculator</span>
 
 
-        
-    </body>
+
+</body>
+
 </html>
