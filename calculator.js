@@ -5,6 +5,9 @@ let operation = null;
 
 
 function clickNumberHandler(num) {
+  if (num === "." && currentNumber.includes(".")) {
+    return;
+  }
   currentNumber = currentNumber + num;
   display();
 }
